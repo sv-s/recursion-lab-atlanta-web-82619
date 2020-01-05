@@ -5,7 +5,7 @@ const printString = (string) => {
     console.log(string)
   }
   else {
-    return printString(string.slice(0, string.length))
+    return printString(string.slice(0, string.length - 1))
   }
 }
 
