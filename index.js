@@ -10,12 +10,3 @@ const printString = (string) => {
     return true;
   }
 }
-
-const reverseString = (string) => {
-  if (string.length === 1) {
-    console.log(string);
-  }
-  else {
-    return reverseString(string[0])
-  }
-}
