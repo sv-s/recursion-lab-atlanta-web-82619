@@ -6,6 +6,9 @@ const printString = (string) => {
   if (string.length > 1) {
     return printString(string.slice(1, string.length))
   }
+  else {
+    return true;
+  }
 }
 
 const reverseString = (string) => {
